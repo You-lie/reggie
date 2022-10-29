@@ -5,6 +5,7 @@ spring:
     host: 192.168.138.100
     port: 6379
     database: 0
+    time-to-live: 1800000
   application:
     name: reggie
   datasource:
